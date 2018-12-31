@@ -1,0 +1,6 @@
+name: azurefunc
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.6,<3.7 #Azure Functions only work with 3.6(?)
